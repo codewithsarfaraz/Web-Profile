@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="google-site-verification" content="JBrWQ1xblTu_bdhqozqujVMFVxFg-JqX_uhm1ADRsRE" />
+	
+	<title>Sarfaraz - Portfolio</title>
+
+	<meta name="description" content="Welcome to the personal portfolio of Sarfaraz. Discover project highlights, professional details, and links to my work, including my resume and portfolio webpage.">
+    <meta name="keywords" content="Sarfaraz, Portfolio, Personal Website, Web Developer, Resume, CV, Projects">
+    <meta name="author" content="Sarfaraz">
+
+    <!-- Open Graph (Facebook, LinkedIn, etc.) -->
+    <meta property="og:title" content="Sarfaraz - Personal Portfolio">
+    <meta property="og:description" content="Here you will find all the highlights of my Details and work.">
+    <meta property="og:image" content="https://www.sarfaraz.fun/">
+    <meta property="og:url" content="https://www.sarfaraz.fun/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sarfaraz - Personal Portfolio">
+    <meta name="twitter:description" content="Here you will find all the highlights of my Details and work.">
+    <meta name="twitter:image" content="https://www.sarfaraz.fun/">
+
+
+	<link rel="stylesheet" href="style.css" />
+	<script src="script.js" defer></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+		<div class="card">
+			<div class="image-section">
+				<img src="./picture.png" alt="Sarfaraz" />
+			</div>
+			<div class="content-section">
+				<h2>Hello,</h2>
+				<h1>I am <span>Sarfaraz</span></h2>
+					<p>Here you will find all the highlights of my details and work.</p>
+
+					<div class="buttons">
+						<button onclick="openCalculator()">CALCULATOR</button>
+						<button onclick="sendMail()">SELF MAIL</button>
+						<button onclick="openResume()">CV / RESUME</button>
+						<button onclick="openPortfolio()">PORTFOLIO WEBPAGE</button>
+					</div>
+
+					<div class="social-links">
+						<a href="#"><i class="fab fa-github"></i></a>
+						<a href="#"><i class="fab fa-linkedin"></i></a>
+						<a href="#"><i class="fab fa-youtube"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+					</div>
+			</div>
+		</div>
+	</div>
+	<script>
+		function openCalculator() {
+			window.open('https://calculator.sarfaraz.fun/', '_blank');
+		}
+
+		function sendMail() {
+			// window.location.href = 'mailto:yourname@example.com';
+			window.open('https://selfmail.sarfaraz.fun/', '_blank');
+		}
+
+		function openResume() {
+			window.open('https://resume.sarfaraz.fun/', '_blank');
+		}
+
+		function openPortfolio() {
+			window.open('https://portfolio.sarfaraz.fun/', '_blank');
+		}
+
+	</script>
+</body>
+
+</html>
